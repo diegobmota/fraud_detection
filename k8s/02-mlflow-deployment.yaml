@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: mlflow
-          image: docker.io/thiagoar587/mlflow-server:latest
+          image: docker.io/diegobmota/mlflow-server:latest
           ports:
             - containerPort: 5000
           volumeMounts:
